@@ -5,7 +5,9 @@ BATTERY IR METER TEST UNIT RELAY SYSTEM VERSION III
 AMA Magazine
 
 This version includes a precision 0.2% 5 Volt DC reference
+
 HOW IT WORKS
+
 The BattIR project uses 14 electronic relays to connect each battery cell
 in succession to the PicChip A/D zero input.  This way there is no variation
 in the PicChip between different A/D inputs since only one channel is used.
