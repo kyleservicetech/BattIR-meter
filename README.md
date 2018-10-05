@@ -1,11 +1,16 @@
-# BattIR-meter
 This project design allows measuring the internal resistance of each cell in a LiPo, Life, or A123 battery pack.
 
 BATTERY IR METER TEST UNIT RELAY SYSTEM VERSION III
 AMA Magazine
 
 This version includes a precision 0.2% 5 Volt DC reference
+The author has built up 31  BattIR meters, with one unit returned due to 
+a missed solder joint on a surface mounted resistor.  No other problems 
+were noted.
 
+The PCB has been relaid out to allow the use of the www.expresspcb.com 
+"MiniBoard" service consisting of three 2.5X3.8 boards at $60.00 USA.
+ 
 HOW IT WORKS
 
 The BattIR project uses 14 electronic relays to connect each battery cell
@@ -15,7 +20,8 @@ in the PicChip between different A/D inputs since only one channel is used.
 A precision 0.2% Voltage reference, part U2 has been added to improve basic
 DC voltage accuracy to around 0.5%, compared to the original BattIR meters
 that used the 5 Volt regulator for the voltage reference.  The original meters
-had around plus/minus 2.5% basic voltage accuracy due to the 5 VDC supply.
+as covered in www.rcgroups.com had around plus/minus 2.5% basic voltage 
+accuracy due to using the 5 VDC supply as a voltage reference.
 
 In addition, each cell voltage is read 10 times, and an average is taken of
 those voltage readings.  This eliminates voltage "jitter" on the last digit of
@@ -50,6 +56,6 @@ test currents through the power resistors, compared to much lower test currents
 that occur with the 1, 2 or 3 cell LiPo packs.
 
 As a result, those usually smaller 2 cell 200 Mah battery packs are tested at 
-current levels of around 5 Amps, compared to the test current of around 20 Amps
-for the higher voltage big battery packs.
+current levels of around 5 Amps, compared to the test current of around 15 Amps
+for the higher voltage larger battery packs.
 
