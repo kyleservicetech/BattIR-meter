@@ -10,6 +10,10 @@ were noted.
 
 The PCB has been relaid out to allow the use of the www.expresspcb.com 
 "MiniBoard" service consisting of three 2.5X3.8 boards at $60.00 USA.
+The ExpressPCB free software must be separately downloaded to allow
+viewing the schematic, PCB layout, and optaining the parts listing
+from the schematic drawing.  The parts listing uses mostly the www.digikey.com
+parts supplier part numbers. 
  
 HOW IT WORKS
 
