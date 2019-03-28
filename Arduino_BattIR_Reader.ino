@@ -1,6 +1,8 @@
 /*
  * This Arduino Nano Sketch reads the information provided by the BattIR meter via the BattIR meters five MicroChip programming pins.
  * The original connections were D11 and D12.  They have been moved to D2 and D3 to allow insertion of the Arduino Nano into the 3D printed holder.
+ * Note: The Arduino Nano clones require the installation of a driver in a Windows PC.  One source is https://www.instructables.com/id/Arduino-Nano-CH340/
+ * Also, set up Arduino "Tools" Processor ATMega328P(Old Bootloader) for Arduino Nano Clones
  * Date 12/28/2018
 
 pin 12 is data, 11 is clock
